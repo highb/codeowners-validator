@@ -49,7 +49,7 @@ inputs:
 
 runs:
   using: 'docker'
-  image: 'docker://highb/codeowners-validator:override_to_use_highb_fork'
+  image: 'docker://highb/codeowners-validator:latest'
   env:
     ENVS_PREFIX: "INPUT"
 

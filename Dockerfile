@@ -4,7 +4,7 @@ FROM alpine:3.12.0 as deps
 # hadolint ignore=DL3018
 RUN apk --no-cache add ca-certificates git
 
-FROM scratch
+FROM alpine
 
 LABEL source=https://github.com/mszostok/codeowners-validator.git
 
